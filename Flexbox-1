@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ 	<title>
+ 		Flex-Box_01
+ 	</title>
+   
+   <h1> Justify-content</h1>
+ <style>
+.flex-start{
+	background-color:powderblue;
+    display:flex;
+    justify-content: flex-start;
+    width:600px;
+
+}
+
+.flex-1{
+	background-color:pink;
+	margin:20px;
+    padding:20px;
+    text-align:center;
+}
+#seven{
+	width:100px;
+	height:25px;
+}
+ 
+#oneeight{
+   width:60px;
+   height:25px;
+}
+#onetwo{
+   width:130px;
+   height:25px;
+}
+
+.flex-end{
+	background-color:powderblue;
+    display:flex;
+    justify-content: flex-end;
+    width:600px;
+
+}
+
+.flex-2{
+	background-color:pink;
+	margin:20px;
+    padding:20px;
+    text-align:center;
+}
+#seven-1{
+	width:100px;
+	height:25px;
+}
+ 
+#oneeight-2{
+   width:60px;
+   height:25px;
+}
+#onetwo-3{
+   width:130px;
+   height:25px;
+}
+
+.center{
+	background-color:powderblue;
+    display:flex;
+    justify-content: center;
+    width:600px;
+
+}
+
+.flex-3{
+	background-color:pink;
+	margin:20px;
+    padding:20px;
+    text-align:center;
+   
+}
+#seven-c{
+	width:100px;
+	height:25px;
+}
+ 
+#oneeight-c{
+   width:60px;
+   height:25px;
+}
+#onetwo-c{
+   width:130px;
+   height:25px;
+}
+
+
+.space-between{
+	background-color:powderblue;
+    display:flex;
+    justify-content: space-between;
+    width:600px;
+}
+
+.flex-4{
+	background-color:pink;
+	margin:20px;
+    padding:20px;
+    text-align:center;
+}
+#seven-sb{
+	width:100px;
+	height:25px;
+}
+ 
+#oneeight-sb{
+   width:60px;
+   height:25px;
+}
+#onetwo-sb{
+   width:130px;
+   height:25px;
+}
+
+.space-around{
+	background-color:powderblue;
+    display:flex;
+    justify-content: space-around;
+    width:600px;
+}
+
+.flex-5{
+	background-color:pink;
+	margin:20px;
+    padding:20px;
+    text-align:center;
+
+}
+#seven-sa{
+	width:100px;
+	height:25px;
+}
+ 
+#oneeight-sa{
+   width:60px;
+   height:25px;
+}
+#onetwo-sa{
+   width:130px;
+   height:25px;
+}
+
+
+.space-evenly{
+	background-color:powderblue;
+    display:flex;
+    justify-content: space-evenly;
+    width:600px;
+}
+
+.flex-6{
+	background-color:pink;
+	margin:20px;
+    padding:20px;
+    text-align:center;
+}
+#seven-se{
+	width:100px;
+	height:25px;
+}
+ 
+#oneeight-se{
+   width:60px;
+   height:25px;
+}
+#onetwo-se{
+   width:130px;
+   height:25px;
+}
+</style>
+ </head>
+ <!-- <link rel="stylesheet" href="style.css"> -->
+
+ <body>
+<h2> flex-start:</h2>
+
+ <div class="flex-start">
+ 	<div class="flex-1" id="seven">MS</div>
+ 	<div class="flex-1" id="oneeight">VK</div>
+    <div class="flex-1"id="onetwo">Yuvi</div>
+ </div>
+<h2>flex-end:</h2>
+ <div class="flex-end">
+ 	<div class="flex-2" id="seven-1">MS</div>
+ 	<div class="flex-2" id="oneeight-2">VK</div>
+    <div class="flex-2"id="onetwo-3">Yuvi</div>
+ </div>
+
+<h2>center:</h2>
+ <div class="center">
+ 	<div class="flex-3" id="seven-c">MS</div>
+ 	<div class="flex-3" id="oneeight-c">VK</div>
+    <div class="flex-3"id="onetwo-c">Yuvi</div>
+ </div>
+
+<h2>space-between:</h2>
+ <div class="space-between">
+ 	<div class="flex-4" id="seven-sb">MS</div>
+ 	<div class="flex-4" id="oneeight-sb">VK</div>
+    <div class="flex-4"id="onetwo-sb">Yuvi</div>
+ </div>
+
+<h2>space-around:</h2>
+ <div class="space-around">
+ 	<div class="flex-5" id="seven-sa">MS</div>
+ 	<div class="flex-5" id="oneeight-sa">VK</div>
+    <div class="flex-5"id="onetwo-sa">Yuvi</div>
+ </div>
+
+<h2>space-evenly:</h2>
+ <div class="space-evenly">
+ 	<div class="flex-6" id="seven-se">MS</div>
+ 	<div class="flex-6" id="oneeight-se">VK</div>
+    <div class="flex-6"id="onetwo-se">Yuvi</div>
+ </div>
+
+
+ </body>
+</html>
