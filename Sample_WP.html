@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+            Let's Travel the World....
+        </title>
+        <style>
+        .box{
+            padding: 30px;
+            margin:10px;
+            background-color:aqua;
+        }
+        body{
+            margin:0;
+            padding:0;
+            }
+        .div1{
+                background-image:url(sunrise-sunset.jpg);   
+                background-position:center; 
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        
+            .navbar{
+                margin: auto;
+            }
+            .menu{
+                width:1000px;
+                height:10px;
+                float: right;
+            }
+            ul{
+                float: left;
+                display: flex;
+                justify-content:center;
+                align-items: center;
+                cursor: pointer;
+            }
+            ul li{
+                padding: 5px;
+                align-items: center;
+                margin-left: 100px;
+                margin-top:auto;
+                font-size: 14px;
+            }
+            ul li a{
+                text-decoration: none;
+                color: aqua;
+                font-size: 17px;
+                font-weight: bold;
+                transition: 65;
+            }
+            .icon{
+                width: 200px;
+                float: left;
+                height: 70px;
+            }
+            .logo{
+                background-image: url(logo4.webp);
+                background-position:center; 
+                background-repeat: no-repeat;
+                background-size: cover;
+                font-size:30px;
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman';
+                /* padding-left: 10px; */
+                float: left;
+                padding-top: 20px;
+                /* margin-left: 100px; */
+                margin-top: 25px;
+                border-radius:150px;
+                width:100px;
+                height:40px;
+                animation: rotateImg 2s linear infinite;
+             }
+            
+            h1{
+                /* margin-top: 100px; */
+                padding: 10px;
+            }
+            .heading1{
+                margin-top: 10px;
+                padding-top: 100px;
+                margin-left:50px;
+                padding: 150px;           
+                color:white ;
+                /* color:rgb(54, 42, 165); */
+                padding-bottom: 100px;
+                
+            }
+            .btn1{
+                background-color:red;
+                text-align: center;
+                display: inline-block;
+                font-size:22px;
+                /* font-size:18px; */
+                font-weight: bold;
+                font-style:oblique;
+                border-radius: 12px;
+                /* box-shadow: 0 4px #999; */
+                padding:3px;
+                opacity: 1;
+                cursor: pointer;
+                padding:9px;
+                width:200px;
+                margin-right: 50px;
+
+            }
+            
+            .div21{
+                display: flex;
+                justify-content:center;
+                /* flex-wrap: nowrap; */
+                 /* align-items:center; */
+                 /* align-content: stretch; */
+                /* flex-direction: row; */
+            }
+            .div211{
+                    height: 300px;
+                    width: 300px;
+            }
+            .div212{
+                    height: 300px;
+                    width: 300px;
+            }
+            .div213{
+                    
+                    height: 300PX;
+                    width: 300PX;
+            }
+            .div214{
+                   
+                    height: 300px;
+                    width: 300px;
+            }
+
+            .div22{
+                display: flex;
+                justify-content:center;
+                flex-wrap: nowrap;
+                align-items: stretch;
+                align-content: stretch;
+                /* flex-direction: row; */
+            }
+            .div221{
+                    
+                    height: 300px;
+                    width: 300px;
+            }
+            .div222{
+                    
+                    height: 300px;
+                    width: 300px;
+            }
+            .div223{
+            
+                    height: 300px;
+                    width: 300px;
+            }
+            .div224{
+                   
+                   height: 300px;
+                   width: 300px;
+           }
+           .text{
+            color: rgb(0, 0, 0); 
+            text-align:center;
+            font-size: 40px;
+            font-weight:bolder;
+           }
+           .div211{
+            background-image:url(Araku.jpg);  
+            background-position:center; 
+            background-repeat: no-repeat;
+            background-size: cover; 
+           }
+           .div212{
+            background-image:url(Jog.jpg);  
+            background-position:center; 
+            background-repeat: no-repeat;
+            background-size: cover; 
+           }
+           .div213{
+            background-image:url(Kedar.jpg);  
+            background-position:center; 
+            background-repeat: no-repeat;
+            background-size: cover; 
+           }
+           .div213{
+            background-image:url(Kedar.jpg);  
+            background-position:center; 
+            background-repeat: no-repeat;
+            background-size: cover; 
+           }
+           .div214{
+            background-image:url(Kollam.jpg);  
+            background-position:center; 
+            background-repeat: no-repeat;
+            background-size: cover; 
+           }
+           .div221{
+            background-image:url(Ramsetu.jpg);  
+            background-position:center; 
+            background-repeat: no-repeat;
+            background-size: cover; 
+           }
+           .div222{
+            background-image:url(Munnar.jpg);  
+            background-position:center; 
+            background-repeat: no-repeat;
+            background-size: cover; 
+           }
+           .div223{
+            background-image:url(chilika.jpg);  
+            background-position:center; 
+            background-repeat: no-repeat;
+            background-size: cover; 
+           }
+          .div224{
+            background-image:url(Amazon.jpg);  
+            background-position:center; 
+            background-repeat: no-repeat;
+            background-size: cover; 
+           }
+           .Footer{
+                background-color:orangered;
+                /* height:100px;         */
+                display: inline-block;
+                text-align: center;
+               
+                 color: aliceblue;
+            
+            }
+
+        </style>
+    </head>
+    <body style="background-color: powderblue;">
+        <div class="main">
+           
+            <div class="div1">
+                <!-- <img src="Travel_Bg.jpg" alt="Travel">  -->
+                <div class="navbar">
+                    <div class="icon">
+                        <h1 class="logo" style="color: yellowgreen;"></h1>
+                    </div>
+                    <div class="menu">
+                        <ul style="list-style-type: none;">
+                            <li> <a href="#">HOME</a></li>
+                            <li> <a href="#">ABOUT</a></li>
+                            <li> <a href="#">GALLERY</a></li>
+                            <li> <a href="#">SERVICES</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <center>
+                <div class="heading1">
+                    <h1 style="padding-top: 100px;">Let's Travel Together</h1>
+                    <p>Home for your personal plan </p>
+                    <p style="color: powderblue; font-size: 25px;"><b><i>Live life with no excuses, travel with no regret</i></b></p>
+                    <br>
+                    <!-- <div class="gip">
+                        <img src="gip1.webp" alt="travel"></img>
+                    </div> -->
+                    <button class="btn1">Explore Places</button> 
+                    <br><br>
+                </center>
+                </div>
+            </div>
+            <center>
+                <div class="gip" style="padding-top: 5px; background-color: aquamarine;">
+                    <img src="gip1.webp" alt="travel"></img>
+                </div>
+            </center>
+            <br><br>
+            
+            <div class="div2">
+                <p class="text">Most popular places</p>
+                <div class="div21">
+                    <div class="div211 box">
+                       <div class="Araku">
+                        <button class="Arkbtn"><a href=#>ARAKU</a></button>
+                       </div>
+                    </div>
+                    <div class="div212 box">
+                        <div class="Jog">
+                            <button class="Jogbtn"><a href=#>JOG</a></button>
+                        </div>
+                    </div>
+                    <div class="div213 box">
+                        <div class="Kedarnath">
+                            <button class="Kedarbtn"><a href=#>KEDARNATH</a></button>
+                        </div>
+                    </div>    
+                    <div class="div214 box">
+                        <div class="Kollam">
+                            <button class="Kollambtn"><a href=#>KOLLAM</a></button>
+                        </div>
+                    </div>    
+                </div>
+                <div class="div22">
+                    <div class="div221 box">
+                        <div class="Ramsetu">
+                            <button class="Rmsetubtn"><a href=#>RAM SETU</a></button>
+                        </div>
+                    </div>
+                    <div class="div222 box">
+                        <div class="Munnar">
+                            <button class="Munbtn"><a href=#>MUNNAR</a></button>
+                        </div>
+                    </div>
+                    <div class="div223 box">
+                        <div class="Chilika">
+                            <button class="Chilbtn"><a href=#>CHILIKA</a></button>
+                        </div>
+                    </div>
+                    <div class="div224 box">
+                        <div class="Amazon">
+                            <button class="Amzbtn"><a href=#>AMAZON</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Footer" style="background-color:grey;color: #fff;width: 100%;text-align: center; padding-top: 20px; padding-bottom: 20px;">
+                <center>
+              <footer>
+                This web is Designed <br>By<br>
+                @Mouli.
+                <!-- <div class="nav" style="justify-items: center;"></div>
+                <nav >
+                  <ul >
+                    <li><a href=# style="text-decoration: none;" >About Us</a></li>
+                    <li><a href=# style="text-decoration: none;">Privacy Policy</a></li>
+                    <li><a href=# style="text-decoration: none;">Contact Us</a></li>
+                  </ul>
+                </nav>   -->
+              </div>
+              </footer>
+            </center>
+           </div>
+        </div>        
+    </body>
+</html>
+
