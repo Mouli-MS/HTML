@@ -16,12 +16,8 @@
                 align-items: center;
                 height: 80px;
                 position:fixed;
-                margin-left:250px;
-                /* background-image: url(LOGO.jpg);
-                background-position:center; 
-                background-repeat: no-repeat;
-                background-size: cover; */
-
+                background-size: cover;
+                width: 100%;
             }
             
             ul{                
@@ -47,6 +43,8 @@
             .navbar{
                 display: flex;
                 justify-content:space-evenly;
+                
+                /* background-size: contain; */
 
             }
             .div1{
@@ -123,20 +121,24 @@
                 justify-content: space-evenly;
                 padding-bottom:40px;
             }
+            .div9{
+                display: flex;
+
+            }
             
         </style>
     </head>
     
           <header>           
                 <div class="navbar"> 
-                    <div class="logo" style="height: 40px;width: 40px;margin-top: 8px; margin-right: 420px;"></div>               
+                    <div class="logo" style="height: 40px;width: 40px;margin-top: 8px; margin-right: 500px;"></div>               
                     <ul style="list-style-type: none;">
                         <li>Home</li>
                         <li>About</li>
                         <li>Pricing</li>
                         <li>Contact</li>
                         <li>Components</li>
-                        <li><button style="background-color: blue; margin-right: 40px;">Download</button></li>
+                        <li><button style="background-color: blue; width: 100px;height:40px;padding:5px; font-size: 15px; color: white;border-radius: 2px;">Download</button></li>
                     </ul>             
                 </div>
           </header>
@@ -226,9 +228,10 @@ Porta non pulvinar neque laoreet. Viverra ipsum nunc aliquet bibendum.</p>
                 <div class="div83">
                     <h3>Subscribe to newsletter</h3>
                     <br>
+                    <div class="div9">
                     <input type="text" name="search">
-                    <button type="submit" style="background-color: blue;">Ok</button>
-                    
+                    <button type="submit" style="background-color: blue;">OK</button>
+                    </div>
                 </div>
             </div>
         </footer>
