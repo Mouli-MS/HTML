@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>
             Let's Travel the World....
         </title>
         <style>
+        header{
+            z-index: 999;
+            position: sticky;
+            top: 0px;
+            /* background-color:black; */
+        }
         .box{
             padding: 30px;
             margin:10px;
@@ -22,41 +29,50 @@
                 background-size: cover;
             }
         
-            .navbar{
+        .navbar{
                 margin: auto;
+                /* color: black; */
+                background-color:green;
+                height: 70px;
+                padding: 5px;
+                position: fixed;
+                /* margin-left:120px; */
+                width:100%;
+                justify-content: center;
+
             }
-            .menu{
+        .menu{
                 width:1000px;
                 height:10px;
                 float: right;
             }
-            ul{
+        ul{
                 float: left;
                 display: flex;
                 justify-content:center;
                 align-items: center;
                 cursor: pointer;
             }
-            ul li{
+        ul li{
                 padding: 5px;
                 align-items: center;
                 margin-left: 100px;
                 margin-top:auto;
                 font-size: 14px;
             }
-            ul li a{
+        ul li a{
                 text-decoration: none;
                 color: aqua;
                 font-size: 17px;
                 font-weight: bold;
                 transition: 65;
             }
-            .icon{
+        .icon{
                 width: 200px;
                 float: left;
                 height: 70px;
             }
-            .logo{
+        .logo{
                 background-image: url(logo4.webp);
                 background-position:center; 
                 background-repeat: no-repeat;
@@ -65,20 +81,20 @@
                 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman';
                 /* padding-left: 10px; */
                 float: left;
-                padding-top: 20px;
+                padding-top: 10px;
                 /* margin-left: 100px; */
-                margin-top: 25px;
-                border-radius:150px;
+                /* margin-top: 25px; */
+                border-radius:200px;
                 width:100px;
-                height:40px;
+                height:50px;
                 animation: rotateImg 2s linear infinite;
              }
             
-            h1{
+        h1{
                 /* margin-top: 100px; */
                 padding: 10px;
             }
-            .heading1{
+        .heading1{
                 margin-top: 10px;
                 padding-top: 100px;
                 margin-left:50px;
@@ -88,7 +104,7 @@
                 padding-bottom: 100px;
                 
             }
-            .btn1{
+        .btn1{
                 background-color:red;
                 text-align: center;
                 display: inline-block;
@@ -107,7 +123,7 @@
 
             }
             
-            .div21{
+        .div21{
                 display: flex;
                 justify-content:center;
                 /* flex-wrap: nowrap; */
@@ -115,26 +131,26 @@
                  /* align-content: stretch; */
                 /* flex-direction: row; */
             }
-            .div211{
+        .div211{
                     height: 300px;
                     width: 300px;
             }
-            .div212{
+        .div212{
                     height: 300px;
                     width: 300px;
             }
-            .div213{
+        .div213{
                     
                     height: 300PX;
                     width: 300PX;
             }
-            .div214{
+        .div214{
                    
                     height: 300px;
                     width: 300px;
             }
 
-            .div22{
+        .div22{
                 display: flex;
                 justify-content:center;
                 flex-wrap: nowrap;
@@ -142,103 +158,104 @@
                 align-content: stretch;
                 /* flex-direction: row; */
             }
-            .div221{
+        .div221{
                     
                     height: 300px;
                     width: 300px;
             }
-            .div222{
+        .div222{
                     
                     height: 300px;
                     width: 300px;
             }
-            .div223{
+        .div223{
             
                     height: 300px;
                     width: 300px;
             }
-            .div224{
+        .div224{
                    
                    height: 300px;
                    width: 300px;
            }
-           .text{
+        .text{
             color: rgb(0, 0, 0); 
             text-align:center;
             font-size: 40px;
             font-weight:bolder;
            }
-           .div211{
+        .div211{
             background-image:url(Araku.jpg);  
             background-position:center; 
             background-repeat: no-repeat;
             background-size: cover; 
            }
-           .div212{
+        .div212{
             background-image:url(Jog.jpg);  
             background-position:center; 
             background-repeat: no-repeat;
             background-size: cover; 
            }
-           .div213{
+        .div213{
             background-image:url(Kedar.jpg);  
             background-position:center; 
             background-repeat: no-repeat;
             background-size: cover; 
            }
-           .div213{
+        .div213{
             background-image:url(Kedar.jpg);  
             background-position:center; 
             background-repeat: no-repeat;
             background-size: cover; 
            }
-           .div214{
+        .div214{
             background-image:url(Kollam.jpg);  
             background-position:center; 
             background-repeat: no-repeat;
             background-size: cover; 
            }
-           .div221{
+        .div221{
             background-image:url(Ramsetu.jpg);  
             background-position:center; 
             background-repeat: no-repeat;
             background-size: cover; 
            }
-           .div222{
+        .div222{
             background-image:url(Munnar.jpg);  
             background-position:center; 
             background-repeat: no-repeat;
             background-size: cover; 
            }
-           .div223{
+        .div223{
             background-image:url(chilika.jpg);  
             background-position:center; 
             background-repeat: no-repeat;
             background-size: cover; 
            }
-          .div224{
+        .div224{
             background-image:url(Amazon.jpg);  
             background-position:center; 
             background-repeat: no-repeat;
             background-size: cover; 
            }
-           .Footer{
+        .Footer{
                 background-color:orangered;
                 /* height:100px;         */
                 display: inline-block;
                 text-align: center;
-               
-                 color: aliceblue;
-            
+                color: aliceblue;
             }
-
+        /* @media screen and (max-width:600px){
+                    .body{
+                        
+                    }
+                } */
         </style>
     </head>
-    <body style="background-color: powderblue;">
+    <body class="body" style="background-color: powderblue;">
         <div class="main">
            
-            <div class="div1">
-                <!-- <img src="Travel_Bg.jpg" alt="Travel">  -->
+            <header>
                 <div class="navbar">
                     <div class="icon">
                         <h1 class="logo" style="color: yellowgreen;"></h1>
@@ -249,9 +266,14 @@
                             <li> <a href="#">ABOUT</a></li>
                             <li> <a href="#">GALLERY</a></li>
                             <li> <a href="#">SERVICES</a></li>
+                            <li> <a href="#">GALLERY</a></li>
                         </ul>
                     </div>
                 </div>
+            </header>
+            <div class="div1">
+                <!-- <img src="Travel_Bg.jpg" alt="Travel">  -->
+               
                 <center>
                 <div class="heading1">
                     <h1 style="padding-top: 100px;">Let's Travel Together</h1>
