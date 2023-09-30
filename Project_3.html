@@ -215,7 +215,17 @@
 
           body{
             width: 100%;
+          } 
+          #loc{
+            border-radius:80px;
           }
+          #phone{
+            border-radius:80px;
+          }
+          #email{
+            border-radius:80px;
+          }
+
 
           #Abt{
             /* text-align: center; */
@@ -250,8 +260,16 @@
             padding-left:40px;
             /* padding-right: 70px; */
           }
-          .msg{
+          /* .msg{
             padding-right:20px;
+          } */
+          .form{
+            padding-left: 40px;
+            padding-right: 40px;
+          }
+          .form-img{
+            padding-left: 20px;
+            padding-right: 20px;
           }
         }
 
@@ -373,24 +391,24 @@
         <h1 id="blog-title">Our Services</h1><br>
         <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything<br> believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't<br> anything</p>
      </div>
-     <span class="services">
-     <div class="col-md-4 col-11 mt-4 text-center container-fluid" id="blog1">
+     <!-- <span class="services"> -->
+     <div class="col-md-4 col-11 mt-4  container-fluid" id="blog1">
         <img src="Service1.jpg" alt="" class="img-fluid">
         <h5 class="pt-3">Car Welding</h5>
         <p>When looking at it's layout.The point of<br>using Lorem ipsun is that it has a more-<br>or-less normal  </p>
      </div>
-     <div class="col-md-4 col-11 mt-4 text-center container-fluid" id="blog1">
+     <div class="col-md-4 col-11 mt-4  container-fluid" id="blog1">
         <img src="Service2.jpg" alt="" class="img-fluid">
         <h5 class="pt-4">Bike Welding</h5>
         <p>When looking at it's layout.The point of<br>using Lorem ipsun is that it has a more-<br>or-less normal  </p>
      </div>
-     <div class="col-md-4 col-11 mt-4 text-center container-fluid" id="blog1">
+     <div class="col-md-4 col-11 mt-4 container-fluid" id="blog1">
         <img src="Service3.jpg" alt="" class="img-fluid">
         <h5 class="pt-2">Home Welding</h5>
         <p>When looking at it's layout.The point of<br>using Lorem ipsun is that it has a more-<br>or-less normal  </p>
       </div>
       <br>
-    </span>
+    <!-- </span> -->
       <div class="col-md-12">
         <button type="button" class="btn2 text-white" id="btn2">Read more</button>
       </div>
@@ -456,11 +474,11 @@
 
  <!-- Get in touch -->
  <div class="row pt-5">
-    <div class="col-md-6 pt-5">
+    <div class="col-md-6 pt-5 form-img">
         <img src="Get_touch.jpg" alt="" class="img-fluid">
     </div>
     <div class="col-md-6 pt-5">
-        <form>
+        <form class="form">
             <h2 class="text-center pt-5 pb-4">Get In Touch</h2>
             <form class="row g-3 text-center">
               <div class="col-md-10">
@@ -475,7 +493,7 @@
                 <input type="Email" class="form-control" id="inputPassword4" placeholder="Enter Your Email">
               </div><br><br>
               <div class="col-md-10 msg">
-                <textarea id="Msg" name="Msg" rows="4" cols="50"> Message </textarea>
+                <textarea id="Msg" name="Msg" rows="4" cols="40"> Message </textarea>
               </div>
             
               <div class="col-12">
@@ -501,12 +519,12 @@
     <div class="row">
         <!-- <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true" id="slide2">
             <div class="carousel-inner">
-              <div class="carousel-item active" id="img">
+              <div class="carousel-item active img" id="img">
                 <img src="Slide_bar2.jpg" class="d-block w-100 " alt="..." >
                 <p3>Jane Mark</p3>
                 <p>Editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by</p>
               </div>
-              <div class="carousel-item" id="img">
+              <div class="carousel-item img" id="img">
                 <img src="Slide_bar2.jpg" class="d-block w-100 " alt="...">
                 <p3>Jane Mark</p3>
                 <p>Editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by</p>
@@ -526,6 +544,8 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div> -->
+
+
           <div class="col-md-12 pt-5 text-center">
             <img src="Slide_bar2.jpg" alt="..." width="150px" height="150px"><br>
             <h5 class="pt-4">Jone Mark</h5>
