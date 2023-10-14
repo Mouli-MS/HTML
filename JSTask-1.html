@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <!-- <h1 id="head">Hello MS from document.getElementById()</h1> -->
+        <h2 id="demo"></h2>
+        <button onclick="fun()">Click Here</button>
+        <script>
+
+// User Name from document.getById()           
+            function fun() {
+                let a = prompt("Enter ur name", " ");
+                if (a != null) {
+                    document.getElementById("demo").innerHTML =
+                    "Hello " + a +".....";
+                }
+            }
+
+              
+// To print first n even numbers uisng loops        
+
+            const n = prompt("Enter a number:");
+            console.log("Even numbers:");
+                for( let i = 0; i < n; i++)
+                {
+                    if(i%2 == 0){
+                        console.log(i);
+                       
+                    }
+                }
+
+            console.log("Half pyramid");
+            const num = prompt("Enter the number of rows:");
+
+                for(let i = 0; i <= num; i++ )
+                {
+                   var stars="";
+                   for(let j = 0; j <= i; j++)
+                   {
+                    // console.log("*");
+                     stars = stars + "* ";
+                   }
+                   console.log(stars);
+                }
+            
+
+            console.log("Full pyramid");
+            // const n = prompt("Enter the number of rows for Full pyramid:");
+
+            let string = "";
+
+                for (let i = 1; i <= n; i++) {
+                
+                for (let j = 1; j <= n - i; j++) {
+                    string += " ";
+                }
+               
+                for (let k = 0; k < 2 * i - 1; k++) {
+                    string += "*";
+                }
+                string += "\n";
+                }
+                console.log(string);
+
+
+               
+
+
+                
+            
+      </script>
+    </body>
+</html>
